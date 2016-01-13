@@ -16,6 +16,7 @@ html, body {
 body {
     font-family: Arial;
     font-size: 62.5%;
+    background-color: green;
 }
 
 .nav-top {
@@ -24,20 +25,41 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: green;
+    background-color: #fff;
 }
 
 .nav-top ul {}
 
 .nav-top li {
-    font-size: 1.6em;
     list-style: none;
+    display: inline-block;
+}
+
+.nav-top li+li {
+    margin-left: 25px;
 }
 
 .twitter-logo {
     padding-right: 10px;
+    vertical-align: middle;
 }
 
 .nav-top li a {
-    color: white;
+    font-size: 1.3em;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #66757F;
+}
+
+.accueil {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.nav-top--container {
+    width: 1024px;
+    height: inherit;
+    margin: auto;
+    overflow: hidden;
+
 }
