@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 62.5%;
+}
+
+.nav-top {
+    height: 42px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: green;
+}
+
+.nav-top ul {}
+
+.nav-top li {
+    font-size: 1.6em;
+    list-style: none;
+}
+
+.twitter-logo {
+    padding-right: 10px;
+}
+
+.nav-top li a {
+    color: white;
+}
