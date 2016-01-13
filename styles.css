@@ -41,19 +41,21 @@ body {
 
 .twitter-logo {
     padding-right: 10px;
-    vertical-align: middle;
 }
 
 .nav-top li a {
     font-size: 1.3em;
-    vertical-align: middle;
     text-decoration: none;
     color: #66757F;
 }
 
 .accueil {
     display: inline-block;
-    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.twitter-logo, .accueil {
+    vertical-align: middle;
 }
 
 .nav-top--container {
